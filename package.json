@@ -2,7 +2,7 @@
   "name": "serverless-portfolio",
   "version": "1.0.0",
   "description": "Serverless Portfolio - Following online course from ACloudGuru",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/yannbr/serverless-portfolio#readme",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

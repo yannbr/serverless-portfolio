@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.export = {
+module.exports = {
     entry: './js/main.js',
     output: {
       path: path.resolve(__dirname, 'dist'),
@@ -14,7 +14,7 @@ module.export = {
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ['react']
+              presets: ["react"]
             }
           }
         }
