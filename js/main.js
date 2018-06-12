@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
+import ExampleWorkModal from './example-work-modal';
 
 const myWork = [
   {
@@ -21,5 +22,6 @@ const myWork = [
 ]
 
 ReactDOM.render(<ExampleWork work={myWork} />, document.getElementById('example-work'));
+ReactDOM.render(<ExampleWorkModal />, document.getElementById('example-modal'));
 
 console.log('here boooo');

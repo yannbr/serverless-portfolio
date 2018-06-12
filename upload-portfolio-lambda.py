@@ -22,7 +22,7 @@ def lambda_handler(event, context):
                     location = artifact["location"]["s3Location"]
 
         topic = sns.Topic('arn:aws:sns:us-east-1:616593077135:deployPortfolioTopic')
-        portfolio_bucket = s3.Bucket('portfolio.yannbr.info')
+        portfolio_bucket = s3.Bucket('me.yannbr.info')
         build_bucket = s3.Bucket(location["bucketName"])
 
         portfolio_zip = StringIO.StringIO()
