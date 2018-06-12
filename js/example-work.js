@@ -14,6 +14,7 @@ class ExampleWork extends React.Component {
   }
 }
 
+
 class ExampleBubble extends React.Component {
   render() {
     let example = this.props.singleExample

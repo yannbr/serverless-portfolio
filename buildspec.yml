@@ -11,4 +11,4 @@ artifacts:
     - favicon.ico
     - styles/*
     - images/*
-    - dist/main.js
+    - dist/bundle.js
